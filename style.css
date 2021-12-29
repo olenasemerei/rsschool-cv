@@ -1,0 +1,199 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #f3f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: hsl(0, 0%, 20%);
+}
+
+.wrapper {
+    display: flex ;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: center;
+    position: relative;
+}
+
+/* Contacts_section */
+.contacts_section {
+    position: absolute;
+    top: 35px;
+    right: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.telegram_link,
+.viber_link,
+.phone_link_icon {
+    text-decoration: none;
+}
+
+.telegram_icon,
+.viber_icon,
+.phone_icon {
+    width: 18px;
+    height: 18px;
+}
+
+.telegram_icon,
+.viber_icon {
+    margin-right: 15px;
+}
+
+.phone_icon {
+    margin-right: 20px;
+}
+
+.phone_link_number {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+}
+
+/* Experience_section */
+.experience_section {
+    width: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social_link {
+    text-decoration: none;
+}
+
+.my_photo {
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+}
+
+.icon_linkedin_link {
+    margin-right: 17px;
+}
+
+.experience_description {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.experience_description_text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.experience_description_text_first {
+    margin-bottom: 8px;
+}
+
+.technologies_container {
+    margin-bottom: 50px;
+}
+
+.js_icon,
+.react_icon {
+    margin-right: 15px;
+}
+
+.my_projects_link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FF0000;
+}
+
+.my_info_section {
+    width: 33%;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.my_profession {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 48px;
+    color: #333333;
+    margin-bottom: 35px;
+}
+
+.my_name {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.my_location,
+.my_workstyle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #2f80ed;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.my_workstyle {
+    margin-bottom: 100px;
+}
+
+.my_description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4f4f4f;
+    margin-bottom: 15px;
+}
+
+.my_skills_title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.my_skills_list {
+    list-style: disc;
+    padding-left: 18px;
+}
+
+.my_skills_item {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f80ed;
+}
+
+.my_skills_text {
+    color: #4f4f4f;
+}
+
+
+
