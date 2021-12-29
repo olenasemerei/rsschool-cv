@@ -17,16 +17,6 @@ I am a student of RS School. I have a strong desire to learn programming. I am i
 * Javascript (in training)
 * VS Code
 
-##Education
-* 2001-2006 Lutsk National Technical University, Master of Economics
-
-##Courses
-
-* 2021 - course JS/FE Pre-School 2022(in progress)
-* 2021 - course HTML/CSS "Html-2021-11 OWU"
-* 2021 - course MGI "English as a second language"
-* 2020 - course GoIt "HTML, CSS, JavaScript Pre-Course"
-
 ##Code example
 
 ``` 
@@ -51,7 +41,7 @@ const { currentUser, board } = this;
 
 ##Courses
 
-2021 - course JS/FE Pre-School 2022(in progress)
-2021 - course HTML/CSS "Html-2021-11 OWU"
-2021 - course MGI "English as a second language"
-2020 - course GoIt "HTML, CSS, JavaScript Pre-Course"
+* 2021 - course JS/FE Pre-School 2022(in progress)
+* 2021 - course HTML/CSS "Html-2021-11 OWU"
+* 2021 - course MGI "English as a second language"
+* 2020 - course GoIt "HTML, CSS, JavaScript Pre-Course"
