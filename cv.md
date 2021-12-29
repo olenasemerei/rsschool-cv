@@ -1,5 +1,7 @@
 #Olena Semerei
 
+![my photo](my_photo.jpg "My photo")
+
 ##Contacts
 * Phone: +380673345037
 * Email: elenasemerei@gmail.com
@@ -9,7 +11,10 @@
 
 ##About me
 
-I am a student of RS School. I have a strong desire to learn programming. I am interesting in creating applications.I want to be useful to people.
+I am a student of RS School. 
+I have a strong desire to learn programming. 
+I am interesting in creating applications.
+I want to be useful to people.
 
 ##Skills
 
@@ -35,10 +40,10 @@ step(rowIndex, cellIndex) {
 const { currentUser, board } = this;
 ``` 
 ##Experience
-* Marathon GoIT TestDrive
+ * Marathon GoIT TestDrive
 
 ##Education
-* 2001-2006 Lutsk National Technical University Master of Economics
+ * 2001-2006 Lutsk National Technical University Master of Economics
 
 ##Courses
 
