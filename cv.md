@@ -26,3 +26,20 @@ I am a student of RS School. I have a strong desire to learn programming. I am i
 * 2021 - course HTML/CSS "Html-2021-11 OWU"
 * 2021 - course MGI "English as a second language"
 * 2020 - course GoIt "HTML, CSS, JavaScript Pre-Course"
+
+##Code example
+
+``` 
+const O = '0';
+const EMPTY = '';
+
+const game = {
+board: [
+[EMPTY, EMPTY, EMPTY],
+[EMPTY, EMPTY, EMPTY],
+[EMPTY, EMPTY, EMPTY],
+],
+currentUser: X,
+step(rowIndex, cellIndex) {
+const { currentUser, board } = this;
+``` 
