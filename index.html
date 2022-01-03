@@ -8,85 +8,142 @@
     <title>CV Olena Semerei</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-    <div class="wrapper">
-        <!-- Contacts_section -->
-        <section class="contacts_section">
-            <a href="@elenasemerei" class="telegram_link">
-                <img src="img/icons/telegram-icon.svg" class="telegram_icon" alt="telegram-link">
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav-section">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary">About me</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#code">Code example</a></li>
+                    <li class="nav-item"><a href="#courses">Courses</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="#experience">Experience</a></li>
+                    <li class="nav-item"><a href="#education">Education</a></li>
+                    <li class="nav-item"><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="left-container">
+                <img src="assets/img/myphoto.jpg" alt="My photo" class="my-photo">
+                <section class="contacts-section" id="contacts">
+                    <h2 class="contacts-section-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-item"><img src="assets/svg/phone-icon.ico" alt="phone icon"
+                                class="phone-icon">
+                            <a href="tel:+380673345037">+380673345037</a>
+                        </li>
+                        <li class="contacts-item"><img src="assets/svg/envelope-solid.ico" alt="mail icon"
+                                class="mail-icon">
+                            <a href="mailto:elenasemerei@gmail.com" target="_blank">elenasemerei@gmail.com</a>
+                        </li>
+                        <li class="contacts-item"><img src="assets/svg/telegram-icon.ico" alt="telegram icon"
+                                class="telegram-icon">
+                            <a href="https://t.me/elenasemerei" target="_blank">@elenasemerei</a>
+                        </li>
+                        <li class="contacts-item"><img src="assets/svg/github-brands.ico" alt="github icon"
+                                class="github-icon">
+                            <a href="https://github.com/olenasemerei" target="_blank">olenasemerei</a>
+                        </li>
+                        <li class="contacts-item"><img src="assets/svg/discord-brands.ico" alt="discord icon"
+                                class="discord-icon">
+                            <a href="https://discord.com/channels/@OlenaS#2639" target="_blank">@OlenaS#2639</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="right-container">
+                <section class="profile-section">
+                    <h1 class="section-title-name">Olena Semerei</h1>
+                    <p class="my-profession">Begginer Front-End Developer</p>
+                </section>
+                <section class="summary-section" id="summary">
+                    <h2 class="section-title">About me</h2>
+                    <p>I am a student of RS School. I have a strong desire to learn programming. I want to have high
+                        level of JavaScript. I am interesting in creating applications.I want to be useful to people.
+                    </p>
+                </section>
+                <section class="skills-section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list">
+                        <li class="section-item">HTML5</li>
+                        <li class="section-item">CSS3</li>
+                        <li class="section-item">JavaScript (in training)</li>
+                        <li class="section-item">VS Code</li>
+                    </ul>
+                </section>
+                <section class="code-example-section" id="code">
+                    <h2 class="section-title">Code example</h2>
+                    <pre>
+                    <code class="code-container">
+                    const O = '0';
+                    const EMPTY = '';
+
+                    const game = {
+                    board: [
+                    [EMPTY, EMPTY, EMPTY],
+                    [EMPTY, EMPTY, EMPTY],
+                    [EMPTY, EMPTY, EMPTY],
+                    ],
+                    currentUser: X,
+                    step(rowIndex, cellIndex) {
+                    const { currentUser, board } = this;
+                    </code>
+                    </pre>
+                </section>
+                <section class="courses-section" id="courses">
+                    <h2 class="section-title">Courses</h2>
+                    <ul class="section-list">
+                        <li class="section-item">2021 - course JS/FE Pre-School 2022(in progress)</li>
+                        <li class="section-item">2021 - course MGI "English as a second language"</li>
+                        <li class="section-item">2021 - course HTML/CSS "Html-2021-11 OWU"</li>
+                        <li class="section-item">2020 - course GoIt " HTML, CSS, JavaScript Pre-Course"</li>
+                    </ul>
+                </section>
+                <section class="projects-section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <a href="https://nervous-lalande-094bb5.netlify.app/" target="_blank">CV for GoIt</a>
+                </section>
+                <section class="experience-section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <p>2021 - Marathon GoIT TestDrive</p>
+                </section>
+                <section class="education-section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p>2001 - 2006 Lutsk National Technical University, Master of Economics</p>
+                </section>
+                <section class="languages" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="section-list">
+                        <li class="section-item">English (B1+)</li>
+                        <li class="section-item">Russian (native)</li>
+                        <li class="section-item">Ukrainian (native)</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="https://github.com/olenasemerei" target="_blank" class="github-link">
+                <img src="assets/svg/github-brands.ico" class="github-icon" alt="github icon">
             </a>
-            <a href="" class="viber_link">
-                <img src="img/icons/viber-icon.svg" class="viber_icon" alt="viber-link">
-            </a>
-            <a href="" class="phone_link_icon">
-                <img src="img/icons/phone-icon.svg" class="phone_icon" alt="phone-link">
-            </a>
-            <a href="tel:+380673345037" class="phone_link_number">
-                067 334 50 37</a>
-
-
-        </section>
-        <!-- Experience_section -->
-        <section class="experience_section">
-
-            <img src="066.jpg" alt="My photo" class="my_photo">
-            <div>
-                <a href="https://fonts.google.com/" class="social_link">
-                    <img src="img/icons/linkedin-icon.svg" alt="My linkedin link" class="icon_linkedin_link">
-                </a>
-                <a href="https://fonts.google.com/" class="social_link">
-                    <img src="img/icons/fb-icon.svg" alt="My facebook link" class="icon">
-                </a>
-            </div>
-
-            <div class="experience_description">
-                <p class="experience_description_text experience_description_text_first"> готові проекти</p>
-                <p class="experience_description_text"> роки досвіду</p>
-            </div>
-            <div class="technologies_container">
-                <img src="img/icons/js-icon.svg" alt="js icon" class="js_icon">
-                <img src="img/icons/react-icon.svg" alt="react icon" class="react_icon">
-                <img src="img/icons/nodejs-icon.svg" alt="nodejs icon">
-            </div>
-            <a class="my_projects_link" href="https://www.behance.net">Мої роботи</a>
-        </section>
-        <!-- My info-->
-        <section class="my_info_section">
-            <h2 class="my_name">Olena Semerei</h2>
-            <h1 class="my_profession">Junior Frontend Developer</h1>
-            <p class="my_location">Живу в Україні</p>
-            <p class="my_workstyle">Працюю віддалено</p>
-
-            <p class="my_description">Я - людина-оркестр. Сама виконую роботу веб-студії.</p>
-            <div>
-                <p class="my_skills_title">Вмію:</p>
-                <ul class="my_skills_list">
-                    <li class="my_skills_item">
-                        <p class="my_skills_text">
-                            Керувати IT-проектами і командами;
-                        </p>
-                    </li>
-                    <li class="my_skills_item">
-                        <p class="my_skills_text">
-                            Junior Front End розробник;
-                        </p>
-                    </li>
-
-                    <li class="my_skills_item">
-                        <p class="my_skills_text">
-                            Можу проконтролювати якість свого чи вашого проекту, як QA - спеціаліст.
-                        </p>
-                    </li>
-            </div>
-        </section>
-
-
-
+            <p>2022</p>
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RS School icon" class="logo-rsschool">
+            <a href="https://rs.school/js/" target="_blank" class="rsschool-link">Course RS School</a>
+        </div>
+    </footer>
 </body>
 
 </html>
