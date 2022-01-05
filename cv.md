@@ -17,6 +17,8 @@ II am a student of RS School. I have a strong desire to learn programming. I wan
 * CSS3
 * Javascript (in training)
 * VS Code
+* GiHub
+* Figma
 
 ##Code example
 
